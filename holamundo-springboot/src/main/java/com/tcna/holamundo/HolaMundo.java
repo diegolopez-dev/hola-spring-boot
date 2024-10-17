@@ -12,7 +12,7 @@ public class HolaMundo {
     @GetMapping("/holamundo")
     @ResponseBody
     public String mostrarMensaje() {
-        return "Hola mundo en Spring Boot";
+        return "Hola mundo, soy Diego desde Spring Boot";
     }
 
 }
